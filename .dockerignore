@@ -1,0 +1,41 @@
+# Git
+.git
+.gitignore
+
+# Environments & Virtualenv
+.venv
+env
+.env
+.env.*
+
+# Python Cache
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+
+# Testing & Coverage
+.pytest_cache
+.coverage
+htmlcov
+
+# Logs
+logs/
+*.log
+notebook/logs/
+
+# FAISS Vectorstore Indices
+faiss_index/
+notebook/faiss_index/
+*.faiss
+*.pkl
+
+# Uploaded session data & checkpoints
+data/session_*
+notebook/data/
+.ipynb_checkpoints/
+
+# Documentation & IDE
+.vscode
+.idea
+.DS_Store

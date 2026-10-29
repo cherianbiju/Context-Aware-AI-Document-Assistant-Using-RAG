@@ -1,0 +1,4 @@
+question,answer
+What BLEU score did the Transformer (big) get on the WMT 2014 English-to-German translation task?,The Transformer (big) achieved 28.4 BLEU on the WMT 2014 English-to-German translation task.
+How many layers do the encoder and the decoder each have in the base Transformer?,Both the encoder and the decoder are made of a stack of N = 6 identical layers.
+"How many attention heads does the Transformer use, and what is the dimension of each head?","The Transformer uses h = 8 parallel attention heads, and each head has dimension dk = dv = 64."

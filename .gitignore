@@ -1,0 +1,64 @@
+# Python cache & virtualenv
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.pyd
+*.pyo
+env/
+.venv/
+*.egg-info/
+*.egg
+dist/
+build/
+multi_doc_chat.egg-info/
+
+# Logs
+logs/
+logs/**
+notebook/logs/
+notebook/logs/**
+*.log
+
+# OS & editor files
+.DS_Store
+.vscode/
+.idea/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+.ipynb_checkpoints/**
+
+# Vector indices & embeddings
+faiss_index/
+faiss_index/**
+notebook/faiss_index/
+notebook/faiss_index/**
+*.faiss
+*.pkl
+
+# Uploaded data & temporary sessions
+data/session_*/
+data/session_*/**
+notebook/data/
+notebook/data/**
+archive/
+main_archive/
+
+# Keep data directory structure and evaluation goldens
+!data/
+!data/goldens.csv
+!data/.gitkeep
+
+# Secrets & environment configurations (NEVER commit secrets!)
+.env
+.env.*
+!.env.example
+
+# Test & coverage artifacts
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Diagram scratch files
+flow.excalidraw
