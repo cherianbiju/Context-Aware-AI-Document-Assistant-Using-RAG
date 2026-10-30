@@ -11,7 +11,7 @@ on:
 env:
   AWS_REGION: ap-southeast-2
   ECR_REPOSITORY: llmopsrepolive
-  ECS_SERVICE: llmops-live-service
+  ECS_SERVICE: llmopstdlive-service
   ECS_CLUSTER: llmops-live-cluster
   ECS_TASK_DEFINITION: .github/workflows/task_defination.json
   CONTAINER_NAME: llmops-live-container
@@ -20,7 +20,7 @@ permissions:
   id-token: write
   contents: read
 
-jobs:
+jobs: 
   check-status:
     runs-on: ubuntu-latest
     if: ${{ github.event_name != 'workflow_run' || (github.event.workflow_run.conclusion == 'success' && github.event.workflow_run.event == 'push') }}
