@@ -1,7 +1,7 @@
 {
     "family": "llmopstdlive",
     "networkMode": "awsvpc",
-    "executionRoleArn": "arn:aws:iam::270178407097:user/llmops-live",
+    "executionRoleArn": "arn:aws:iam::270178407097:role/llmopsTaskExecutionRole",
     "requiresCompatibilities": ["FARGATE"],
     "cpu": "1024",
     "memory": "8192",
